@@ -1,0 +1,19 @@
+package com.Coding.helloWord.Controller;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+public class HomeController {
+	@RequestMapping("/")
+	public String index(Model model) {
+		model.addAttribute("DojoName","Burbank");
+		return "index.jsp";
+	}
+	@RequestMapping("/createError")
+	public String flashMessages(RedirectAttributes redirectAttributes) {
+		redirectAttributes.addFlashAttribute("error","a test error!");
+		return "redirect:/";
+	}
+
+}

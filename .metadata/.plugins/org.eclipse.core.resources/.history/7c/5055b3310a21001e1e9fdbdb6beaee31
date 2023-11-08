@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Página de inicio</title>
+</head>
+<body>
+    <h1>Bienvenido a la página de inicio</h1>
+    <ul>
+        <li><a href="/date">Mostrar fecha actual</a></li>
+        <!-- Agrega otros enlaces a otras páginas aquí -->
+    </ul>
+</body>
+</html>

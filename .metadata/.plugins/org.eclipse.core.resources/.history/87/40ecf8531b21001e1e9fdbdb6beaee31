@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fecha</title>
+        <link rel="stylesheet" type="text/css" href="css/styledate.css">
+        <script type="text/javascript" src="js/appdate.js"></script>
+</head>
+<body>
+    <h1>Fecha actual</h1>
+    <h1 id="date">${formattedDate}</h1>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>Fecha actual</title>
+</head>
+<body>
+    <h1>Fecha actual</h1>
+    <p>${formattedDate}</p>
+</body>
+</html>

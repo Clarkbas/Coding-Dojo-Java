@@ -1,0 +1,30 @@
+package com.Coding.DojoController;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+@RequestMapping("/greeting")
+public class DojoControllerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DojoControllerApplication.class, args);
+	}
+	
+	@PathVariable("/coding")
+    public String Coding(){
+      return "¡Hola Coding Dojo!";
+    }
+    @PathVariable("/Coding/python")
+    public String python(){
+      return "¡Python/Django fue increíble!";
+    }
+    @PathVariable("/Coding/java")
+    public String java(){
+      return "¡Python/Django fue increíble!";
+    }
+
+}

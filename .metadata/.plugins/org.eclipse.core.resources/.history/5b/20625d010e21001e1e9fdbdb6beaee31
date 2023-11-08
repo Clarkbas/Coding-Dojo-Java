@@ -1,0 +1,31 @@
+package com.Coding.mostrarFecha.homeController;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HomeController {
+    
+    @GetMapping("/home")
+    public String home() {
+        return "index.jsp";
+    }
+    
+    @GetMapping("/date")
+    public String date() {
+        return "date.jsp";
+    }
+    
+    @GetMapping("/time")
+    public String time() {
+        return "time.jsp";
+    }
+}
+
+
+
+
+

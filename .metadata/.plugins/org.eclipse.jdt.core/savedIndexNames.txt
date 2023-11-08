@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jdt.core
+2462399567.index
+2223435809.index
+1865797976.index

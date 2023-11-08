@@ -1,0 +1,27 @@
+package com.Coding.mostrarFecha.homeController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import ch.qos.logback.core.model.Model;
+@Controller
+public class HomeController {
+    @RequestMapping("/home")
+    public String index() {
+        return "index.jsp";
+    }
+    
+    @RequestMapping("/time"){
+    	public String time (Model model) {
+    		
+    	}
+    }
+}
+
+
+
+
+
+
+
+

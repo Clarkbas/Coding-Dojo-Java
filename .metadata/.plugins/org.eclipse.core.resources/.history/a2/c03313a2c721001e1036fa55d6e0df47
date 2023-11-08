@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fecha</title>
+        <link rel="stylesheet" type="text/css" href="./css/styledate.css">
+        <script type="text/javascript" src="js/appdate.js"></script>
+        <style>
+			p {
+        color: rgb(0, 0, 255);
+}
+			
+		</style>
+</head>
+<body>
+    <h1>Fecha actual 2</h1>
+    <p id="date">${formattedDate}</p>
+</body>
+</html>

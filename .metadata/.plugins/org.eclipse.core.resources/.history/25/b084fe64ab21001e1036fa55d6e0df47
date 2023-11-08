@@ -1,0 +1,5 @@
+package com.Coding.ProyectoFormulario.model;
+
+public class User {
+
+}

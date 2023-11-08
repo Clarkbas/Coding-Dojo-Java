@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hora</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/time-script.js"></script>
+</head>
+<body>
+    <h1>Hora</h1>
+    <p id="time"></p>
+</body>
+</html>

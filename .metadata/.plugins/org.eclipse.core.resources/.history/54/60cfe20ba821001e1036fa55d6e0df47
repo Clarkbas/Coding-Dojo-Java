@@ -1,0 +1,12 @@
+package com.Coding.ProyectoFormulario.Controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class homeController {
+	
+	@GeMapping("/")
+	public String index() {
+		return "index";
+	}
+}

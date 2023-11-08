@@ -1,0 +1,37 @@
+<%@ page language= "java"  contentType="text/html; charset-UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+</head>
+
+<body>
+  <p id="parrafo">
+    Hola, soy un párrafo. También puedo ser <strong>impreso</strong>
+    <br> Olvidé decir que también puedo contener imágenes :)
+    <br>
+    <img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/81630ec2-d253-4eb2-b36c-eb54072cb8d6-golang.png">
+  </p>
+  <button id="btnImprimirParrafo">Imprimir párrafo</button>
+  <div id="imprimible">
+    Hola, yo soy otro div con el id imprimible
+    <br> Puedo llevar
+    <br>saltos de línea
+    <br> También
+    <ul>
+      <li>Elementos</li>
+      <li>de una</li>
+      <li>Lista</li>
+    </ul>
+    <h1>Encabezados</h1>
+    <h2>De todos</h2>
+    <h3>Los tamaños</h3>
+    <p>Y <strong>todo</strong> lo que pueda ser <i>creado</i> usando <code>html</code></p>
+  </div>
+</body>
+
+</html>

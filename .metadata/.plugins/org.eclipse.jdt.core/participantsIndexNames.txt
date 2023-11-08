@@ -1,0 +1,21 @@
+INDEX VERSION 1.134
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2019563244.index
+\proyectofecha\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1247074352.index
+\HelloWord\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2699899174.index
+\mostrarFecha\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1519532874.index
+\contador\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\904095299.index
+\ejemploClass\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\113181042.index
+\Ejemploclass\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\985082784.index
+\contadorproyect\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1642123541.index
+\manuuu\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\562940011.index
+\fechasyHora\src\main\java
+C:\Cosas de Bastan\curso de programación\WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1612768920.index
+\Contador\src\main\java

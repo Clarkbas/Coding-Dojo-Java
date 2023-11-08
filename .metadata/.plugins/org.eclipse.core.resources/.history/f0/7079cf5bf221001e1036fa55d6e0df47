@@ -1,0 +1,27 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome User!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome User!</h1>
+    </header>
+    
+    <nav>
+        <!-- Agrega enlaces a otras páginas si es necesario -->
+    </nav>
+    
+    <main>
+        <!-- Contenido principal de la página -->
+    </main>
+    
+    <footer>
+        <!-- Pie de página común -->
+    </footer>
+</body>
+</html>

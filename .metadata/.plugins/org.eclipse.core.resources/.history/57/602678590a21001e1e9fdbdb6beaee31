@@ -1,0 +1,31 @@
+package com.Coding.mostrarFecha.homeController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.Date;
+
+@Controller
+public class HomeController {
+
+    @GetMapping("/")
+    public String home(Model model) {
+        return "index";
+    }
+
+    @GetMapping("/date")
+    public String date(Model model) {
+        Date currentDate = new Date();
+        model.addAttribute("currentDate", currentDate);
+        return "date";
+    }
+
+    @GetMapping("/time")
+    public String time(Model model) {
+        Date currentTime = new Date();
+        model.addAttribute("currentTime", currentTime);
+        return "time";
+    }
+}
+

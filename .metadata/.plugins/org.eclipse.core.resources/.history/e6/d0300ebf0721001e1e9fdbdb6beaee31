@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <h1>Home</h1>
+    <ul>
+        <li><a href="/date">Fecha</a></li>
+        <li><a href="/time">Hora</a></li>
+    </ul>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+package com.Coding.contadorproyect.Controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import jakarta.servlet.http.HttpSession;
+
+@Controller
+public class homeController {
+    private static final Logger logger = LoggerFactory.getLogger(homeController.class);
+    private static final String INDEX_VIEW = "index.jsp";
+    private static final String COUNTER_VIEW = "index2.jsp";
+
+    @GetMapping("/")
+    public String index(HttpSession session, Model model) {
+        // Obtener el contador de la sesión
+        Integer count = (Integer) session.getAttribute("count");
+
+        if (count == null) {
+            // Si el contador no existe en la sesión, inicializarlo en cero
+            count = 0;
+        } else {
+            // Si el contador existe, incrementarlo en uno
+            count++;
+        }
+        
+        // Guardar el contador actualizado en la sesión
+        session.setAttribute("count", count);
+        
+        // Pasar el contador al modelo para mostrarlo en la vista
+        model.addAttribute("contador", count);
+
+        logger.info("Acceso a la página de inicio");
+        return INDEX_VIEW;
+    }
+
+    // Resto de los métodos del controlador
+    // ...
+}
+
+
+
+
